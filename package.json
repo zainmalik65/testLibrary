@@ -1,0 +1,15 @@
+{
+    "name": "my-amazing-package",
+    "version": "0.0.2",
+    "devDependencies": {
+        "typescript": "^3.5.3"
+    },
+    "scripts": {
+        "tsc": "tsc"
+    },
+    "files": [
+        "lib/**/*"
+    ],
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts"
+}
